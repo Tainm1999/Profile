@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaiNM Developer</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/3fe635cf31.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="src/logo.png" type="image/png">
+</head>
+
+<body>
+    <!--H E A D E R-->
+    <header class="flex-c">
+        <nav class=" contain flex-r">
+            <div class="nav-logo flex-r">
+                <a href="#" class="flex-r">
+                    <img src="./src/logo.png" style="height: 50px; width: 50px;" alt="">
+                </a>
+            </div>
+
+            <div class="nav-link flex-r">
+                <a href="#hero" class="active">Home</a>
+                <a href="#about">My Intro</a>
+                <a href="#skill">My Skills</a>
+            </div>
+
+            <div class="ham flex-c">
+                <span id="line-1" class="line"></span>
+                <span id="line-2" class="line"></span>
+                <span id="line-3" class="line"></span>
+            </div>
+        </nav>
+
+
+        <main id="hero" class="contain flex-r">
+            <div class="hero-text flex-c">
+                <h4 class="lb-head">Hi, I am</h4>
+                <h1 class="db-head">Tai Nguyen Manh</h1>
+                <p>I am <span style="font-weight: bold;">Frontend Web Developer</span>.</p>
+                <div class="hero-btn flex-r">
+                    <button class="btn b-btn">
+                        <a href="src/resume/Nguyen's Resume.pdf" download>Resume
+                        <i class="fa-solid fa-file"></i></a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-img flex-r">
+                <img src="src/rubber-10.gif" alt="">
+            </div>
+        </main>
+    </header>
+
+    <!-- A B O U T -->
+    <section id="about" class="contain flex-r">
+        <div class="about-img flex-r">
+            <img src="./src/avtar.png">
+        </div>
+        <div class="about-text flex-c">
+            <h4 class="lb-head">My Intro</h4>
+            <h1 class="db-head">About Me</h1>
+            <h2 class="text-2xl font-bold w-full">Hi I'm Tai 👋</h2>
+            <p>
+                I'm a Frontend web developer, but still interested and explore new technologies!. Always learning new knowledge to develop myself.
+            </p>
+            <div class="about-info flex-r">
+                <div class="l-about-info flex-c">
+                    <div class="flex-r">
+                        <img src="./src/age-about.png" class="about-icon">
+                        <span>Age</span>
+                    </div>
+                    <div class="flex-r">
+                        <img src="./src/call-about.png" class="about-icon">
+                        <span>Phone</span>
+                    </div>
+                    <div class="flex-r">
+                        <img src="./src/mail-about.png" class="about-icon">
+                        <span>Email</span>
+                    </div>
+                </div>
+                <div class="r-about-info">
+                    <div>: 24</div>
+                    <div>: +84 888192963</div>
+                    <div>: tainm.1999@gmail.com</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--S K I L L S-->
+    <section id="skill" class="contain flex-c">
+        <div class="skill-head flex-c">
+            <h1 class="db-head">My Expertise</h1>
+        </div>
+        <div class="skill-main flex-r">
+            <div class="skill-progress flex-c">
+                <div class="pro-box flex-c">
+                    <div class="pro-top flex-r">
+                        <div>HTML</div>
+                        <div>70%</div>
+                    </div>
+                    <div class="pro-bottom flex-r">
+                        <div class="pro-fill fill-1"></div>
+                    </div>
+                </div>
+                <div class="pro-box flex-c">
+                    <div class="pro-top flex-r">
+                        <div>CSS</div>
+                        <div>70%</div>
+                    </div>
+
+                    <div class="pro-bottom flex-r">
+                        <div class="pro-fill fill-2"></div>
+                    </div>
+                </div>
+
+                <div class="pro-box flex-c">
+                    <div class="pro-top flex-r">
+                        <div>JAVASCRIPT</div>
+                        <div>50%</div>
+                    </div>
+
+                    <div class="pro-bottom flex-r">
+                        <div class="pro-fill fill-3"></div>
+                    </div>
+                </div>
+
+                <div class="pro-box flex-c">
+                    <div class="pro-top flex-r">
+                        <div>BOOTSTRAP</div>
+                        <div>40%</div>
+                    </div>
+
+                    <div class="pro-bottom flex-r">
+                        <div class="pro-fill fill-4"></div>
+                    </div>
+                </div>
+
+                <div class="pro-box flex-c">
+                    <div class="pro-top flex-r">
+                        <div>REACT.JS</div>
+                        <div>50%</div>
+                    </div>
+
+                    <div class="pro-bottom flex-r">
+                        <div class="pro-fill fill-5"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-img flex-r">
+                <img src="./src/experience.png" style="height: 30%; width: 50%;" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--P R O J E C T-->
+    <section id="project" class="contain flex-c">
+        <div class="project-img flex-r">
+            <img src="./src/links.png">
+        </div>
+        <div class="project-text flex-c">
+            <h1 class="lb-head">Where to find me ?</h1>
+        </div>
+        <div class="about-more flex-r">
+            <a href="https://github.com/Tainm1999" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tai-nguyen-manh-860407213/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="tainm.1999@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+
+    <!--F O O T E R-->
+    <footer class="contain">
+        <div class="bottom-footer flex-r">
+            Made with by &nbsp; <a href="#">❤️</a>
+        </div>
+    </footer>
+</body>
+
+</html>
